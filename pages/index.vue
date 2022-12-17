@@ -44,7 +44,15 @@
             </p>
           </div>
           <div class="varvar">
-            <img class="varvar__image" src="../assets/Varvar.png" alt="/" />
+            <div class="varvar__image-wrap">
+              <img class="varvar__image" src="../assets/Varvar.png" alt="/" />
+
+              <img class="anim_1" src="../assets/dwarf_head.gif" alt="" />
+
+              <img class="anim_2" src="../assets/dwarf_shoulder.gif" alt="" />
+
+              <img class="anim_3" src="../assets/dwarf_нandcuff.gif" alt="" />
+            </div>
             <div class="hint">
               <span>
                 {{ varvarText }}
@@ -205,6 +213,30 @@ export default {
 
 .chest__logo {
   margin-bottom: 20px;
+}
+
+.varvar__image-wrap {
+  position: relative;
+
+  .anim_1 {
+    position: absolute;
+    top: 34px;
+    left: 126px;
+    width: 78px;
+  }
+
+  .anim_2 {
+    position: absolute;
+    top: 99px;
+    left: 191px;
+  }
+
+  .anim_3 {
+    position: absolute;
+
+    top: 118px;
+    left: 84px;
+  }
 }
 
 .tourch_animation {
