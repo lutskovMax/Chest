@@ -233,7 +233,6 @@ export default {
 
   .anim_3 {
     position: absolute;
-
     top: 118px;
     left: 84px;
   }
